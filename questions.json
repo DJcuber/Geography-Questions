@@ -7,13 +7,13 @@
       {
         "q":"Explain why there is a surplus of solar energy in the tropical latitudes and a deficit of solar energy towards the poles. (8)",
         "marks":8,
-        "weight":1
+        "weight":10
       },
       "Atmospheric circulation":
       {
         "q":"Explain how atmospheric circulation cells and the associated surface winds assist in redistributing energy around the world. (8)",
         "marks":8,
-        "weight":1
+        "weight":10
       }
     }
   }
