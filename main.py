@@ -3,12 +3,25 @@ import os
 import random
 
 def readJson():
-  with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "questions.json")) as f:
+  with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "questions.json"), "r") as f:
     file = json.loads(f.read())
   return file
 
-def updateWeights(question):
-  pass
+def updateWeights(newQuestion, file):
+  breaker = False
+  for section in file.values():
+    for topic in section.values():
+      for question in topic.values():
+        if question["q"] == newQuestion["q"]:
+          question["weight"] = newQuestion["weight"]
+          breaker = True
+          break
+      if breaker: break
+    if breaker: break
+  with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "questions.json"), "w") as f:
+    f.write(json.dumps(file, indent=2))
+  return file
+
   #update weights of questions
 
 def getQuestion(file):
@@ -36,7 +49,8 @@ def main():
   file = readJson()
   while True:
     question = getQuestion(file)
-    askQuestion(question)
+    question = askQuestion(question)
+    file = updateWeights(question, file)
 
 if __name__ == "__main__":
   main()
