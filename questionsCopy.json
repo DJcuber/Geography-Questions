@@ -47,6 +47,16 @@
         "q": "Explain the formation of a oxbow lake. (8)",
         "marks": 8,
         "weight": 10
+      },
+      "Drainage basin": {
+        "q": "Describe the hydrological cylce within a drainage basin. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "hydrographs" : {
+        "q": "Suggest reasons for a short lag time in a drainage basin. (8)",
+        "marks": 8,
+        "weight": 10
       }
     }
   }
