@@ -53,8 +53,97 @@
         "marks": 8,
         "weight": 10
       },
-      "hydrographs" : {
+      "Hydrographs" : {
         "q": "Suggest reasons for a short lag time in a drainage basin. (8)",
+        "marks": 8,
+        "weight": 10
+      }
+    },
+    "Lithosphere": {
+      "Corrie": {
+        "q": "Explain the formation of a corrie. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Arete": {
+        "q": "Explain the formation of an arete. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Pyramidal peak": {
+        "q": "Explain the fomation of a pyramidal peak. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "U shaped valley": {
+        "q": "Explain the formation of a U shaped valley. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Ribbon lake": {
+        "q": "Explain the formation of a ribbon lake. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Drumlin": {
+        "q": "Explain the formation of a drumlin. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Terminal morraine": {
+        "q": "Explain the formation of terminal morraine. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Esker": {
+        "q": "Explain the formation of an esker. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Wave cut platform": {
+        "q": "Explain the formation of a wave cut platform. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Headland and bays": {
+        "q": "Explain the formation of headlands and bays. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Stack": {
+        "q": "Explain the formation of a stack. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Sand spit": {
+        "q": "Explain the formation of a sand spit. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Sand bar": {
+        "q": "Explain the formation of a sand bar. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Tombolo": {
+        "q": "Explain the formation of a tombolo. (8)",
+        "marks": 8,
+        "weight": 10
+      }
+    },
+    "Biosphere": {
+      "Podzol": {
+        "q": "Explain the conditions and processes which lead to the formation of a podzol soil. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Brown earth": {
+        "q": "Explain the conditions and processes which lead to the formation of a brown earth soil. (8)",
+        "marks": 8,
+        "weight": 10
+      },
+      "Gley": {
+        "q": "Explain the conditions and processes which lead to the formation of a gley soil. (8)",
         "marks": 8,
         "weight": 10
       }
